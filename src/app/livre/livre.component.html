@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="rows">
+        <div *ngFor="let l of listelivre">
+        <div class="col-md-1">
+        <div class="card" style="width :auto;">
+            <img src="..\assets\jihad.png" class ="card-img-top" alt="ok" class="rounded-img-fluid" >
+        <div class="card-body">
+            <h5 class="card-title">Titre</h5>
+            <h5 class="card-text"> c'est un livre </h5>
+            <a routerLink="{{l.id}},{{l.auteur}},{{l.titre}}"> Detail de livre :</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
